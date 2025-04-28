@@ -34,7 +34,7 @@
             <input
               type="email"
               id="login-field"
-              placeholder="use your email as login"
+              placeholder="Login with your email address"
               required
             />
           </div>
@@ -87,7 +87,7 @@
             />
           </div>
           <div class="form-input-control">
-            <label for="password">Password</label>
+            <label for="password" >Password</label>
             <input
               type="password"
               id="password"
@@ -116,14 +116,15 @@
               minlength="12"
               maxlength="12"
               placeholder="ex.: +12336456355"
+              required
             />
           </div>
-          <div class="form-input-control">
+          <div class="form-input-control" class="avatar">
             <label for="avatar">Avatar</label>
             <input type="file" id="avatar" />
           </div>
           <div class="form-group-horizontal-control">
-            <div class="form-input-control">
+            <div class="form-input-control" class="state">
               <label for="state">State</label>
               <select id="state">
                 <option value="" disabled selected>Select your state</option>
@@ -132,7 +133,7 @@
                 <option value="SD">South Dakota</option>
               </select>
             </div>
-            <div class="form-input-control">
+            <div class="form-input-control" class="city">
               <label for="city">City</label>
               <select id="city">
                 <option value="" disabled selected>Select your city</option>
